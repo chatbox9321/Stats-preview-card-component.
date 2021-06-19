@@ -1,0 +1,84 @@
+.discription-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 1440px;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.neel {
+  font-family: "Inter", sans-serif;
+  font-weight:500;
+    width: 25%;
+    height: 25%;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 20px;
+    background-color: hsl(244, 38%, 16%);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+}
+span {color:hsl(277, 64%, 61%);
+
+}
+h4 {font-size: 1.50rem;
+    margin-bottom: 20px;
+}
+
+p {font-size:1.25rem;
+    margin-bottom: 30px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    padding-right:  20px;
+    text-align: center;
+
+}
+
+.reet {
+    width: 25%;
+    height: 379px;
+    background-image: url("images/image1.jpg");
+    background-color: hsl(277, 64%, 61%);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .discription-card {
+        width: 600px;
+        height: 1440px;
+        flex-direction: column-reverse;
+    }
+
+    .neel {
+       font-weight: 400;
+        width: 350px;
+        height: 550px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 25px;
+        text-align: center;
+
+    }
+.row {
+  flex-direction: column;
+  text-align: center;
+}
+.neel1, .reet2,  .gaurang2 {
+          margin-top: 35px;
+}
+    .reet {
+      font-weight: 400;
+        width: 380px;
+        height: 350px;
+        background-image: url("images/neel.jpg");
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 25px;
+    }
+
+}
